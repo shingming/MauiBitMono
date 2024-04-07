@@ -14,9 +14,9 @@
             count++;
 
             if (count == 1)
-                CounterBtn.Text = $"Protected by BitMono. Clicked {count} time";
+                CounterBtn.Text = $"Protected by BitMono. Clicked {count} time.";
             else
-                CounterBtn.Text = $"Protected by BitMono. Clicked {count} times";
+                CounterBtn.Text = $"Protected by BitMono. Clicked {count} times.";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
